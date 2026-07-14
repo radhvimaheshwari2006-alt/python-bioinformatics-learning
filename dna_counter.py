@@ -19,12 +19,14 @@ for nucleotide in dna:
     count=count+1 
 print("C count:")     
 print(count)
+c_count= count
 count=0
 for nucleotide in dna:
   if nucleotide== "G":
     count=count+1
 print("G count:")     
 print(count)
+g_count=count
 count=0  
 for nucleotide in dna:
   if nucleotide== "T":
