@@ -31,3 +31,5 @@ for nucleotide in dna:
     count=count+1
 print("T count:")   
 print(count)   
+gc_content=((g_count+c_count)/len(dna))*100
+print(gc_content)
