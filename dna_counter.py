@@ -1,0 +1,6 @@
+dna= input("Enter DNA sequence:")
+dna= dna.strip().upper()
+print("DNA counter")
+print("----------")
+print("cleaned dna sequence:")
+print(dna)
