@@ -35,3 +35,6 @@ print("T count:")
 print(count)   
 gc_content=((g_count+c_count)/len(dna))*100
 print(gc_content)
+rna=dna.replace("T","U")
+print("RNA sequence:")
+print(rna)
